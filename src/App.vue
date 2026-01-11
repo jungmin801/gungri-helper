@@ -1,7 +1,12 @@
 <script setup lang="ts"></script>
-
 <template>
-  <div class="text-red-500">Hello</div>
+  <nav>
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/list">전체보기</RouterLink>
+  </nav>
+  <main>
+    <RouterView></RouterView>
+  </main>
 </template>
 
 <style scoped></style>

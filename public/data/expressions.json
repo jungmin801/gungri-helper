@@ -1,0 +1,1670 @@
+{
+  "version": 1,
+  "data": [
+    {
+      "id": "expr_001",
+      "en": "I want to",
+      "ko": "~하고 싶어",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_002",
+      "en": "whenever",
+      "ko": "~때마다",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_003",
+      "en": "That’s why",
+      "ko": "그래서 ~한 거야",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_004",
+      "en": "talk to (someone)",
+      "ko": "(누구)와 이야기 하다",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_005",
+      "en": "(someone) told me",
+      "ko": "(누가) 말해주다, 알려주다",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_006",
+      "en": "I will",
+      "ko": "순간 결심한 일이나 즉흥적으로 하기로 한 것",
+      "ref": {
+        "chapter": 1,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_007",
+      "en": "I am going to",
+      "ko": "이미 정해 둔 계획",
+      "ref": {
+        "chapter": 1,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_008",
+      "en": "I was going to",
+      "ko": "과거에 계획은 있었지만 결국 하지 못했다",
+      "ref": {
+        "chapter": 1,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_009",
+      "en": "I am doing",
+      "ko": "가까운 미래 계획",
+      "ref": {
+        "chapter": 1,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_010",
+      "en": "take a break",
+      "ko": "잠깐 쉬다",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_011",
+      "en": "I’m looking for",
+      "ko": "찾고 있어",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_012",
+      "en": "I’m (not) good at",
+      "ko": "잘하다, 못하다",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_013",
+      "en": "I thought",
+      "ko": "~라고 생각했어",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_014",
+      "en": "I’m thinking of",
+      "ko": "생각 중이야",
+      "ref": {
+        "chapter": 1,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_015",
+      "en": "spending time",
+      "ko": "시간을 보내다",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_016",
+      "en": "since",
+      "ko": "~한 지, ~이후로",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_017",
+      "en": "work out",
+      "ko": "운동하다",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_018",
+      "en": "(number) times a (length of time)",
+      "ko": "(기간)에 (몇 번)씩",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_019",
+      "en": "the other day",
+      "ko": "며칠 전에, 요전에",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_020",
+      "en": "take (someone) to (somewhere)",
+      "ko": "(누구)를 (어디)에 데려가다",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_021",
+      "en": "I do",
+      "ko": "사실, 진리, 습관, 반복되는 행동",
+      "ref": {
+        "chapter": 2,
+        "type": "GR"
+      }
+    },
+    {
+      "id": "expr_022",
+      "en": "I have done",
+      "ko": "과거에 일어난 일이지만 현재에도 연결되는 일",
+      "ref": {
+        "chapter": 2,
+        "type": "GR"
+      }
+    },
+    {
+      "id": "expr_023",
+      "en": "I have been doing",
+      "ko": "과거에 시작해서 지금까지 계속되고 있는 일",
+      "ref": {
+        "chapter": 2,
+        "type": "GR"
+      }
+    },
+    {
+      "id": "expr_024",
+      "en": "make",
+      "ko": "만들다, 요리하다",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_025",
+      "en": "used to",
+      "ko": "예전에 그러곤 했다",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_026",
+      "en": "no matter how",
+      "ko": "아무리 ~하던 간에",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_027",
+      "en": "skip",
+      "ko": "거르다, 빼먹다",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_028",
+      "en": "recently",
+      "ko": "최근에",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_029",
+      "en": "Why don’t you",
+      "ko": "~하는 게 어때?",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_030",
+      "en": "worth it",
+      "ko": "가치가 있다",
+      "ref": {
+        "chapter": 2,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_031",
+      "en": "prefer",
+      "ko": "더 좋아하다, 선호하다",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_032",
+      "en": "always",
+      "ko": "힝싱",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_033",
+      "en": "over time",
+      "ko": "시간이 지나면서",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_034",
+      "en": "realize",
+      "ko": "깨닫다, 알아차리다",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_035",
+      "en": "Now that",
+      "ko": "이제 ~하니까",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_036",
+      "en": "I’m interested",
+      "ko": "사람이 느끼는 바를 표현하는 -ed 형용사",
+      "ref": {
+        "chapter": 3,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_037",
+      "en": "It’s interesting",
+      "ko": "대상이나 상황을 묘사하는 -ing 형용사",
+      "ref": {
+        "chapter": 3,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_038",
+      "en": "can’t stand",
+      "ko": "너무 싫다, 참을 수 없다",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_039",
+      "en": "feel bad",
+      "ko": "마음이 안 좋다, 미안하다",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_040",
+      "en": "Speaking of",
+      "ko": "~ 얘기가 나와서 말인데",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_041",
+      "en": "meet up",
+      "ko": "만나다",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_042",
+      "en": "brush it off",
+      "ko": "대수롭지 않게 넘기다",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_043",
+      "en": "big deal",
+      "ko": "대수롭지 않게 넘기다",
+      "ref": {
+        "chapter": 3,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_044",
+      "en": "kind of",
+      "ko": "좀, 약간",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_045",
+      "en": "meet the deadline",
+      "ko": "기한을 맞추다",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_046",
+      "en": "cover for",
+      "ko": "대신해 주다, 자리를 메워 주다",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_047",
+      "en": "pissed off",
+      "ko": "열받은(빡친)",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_048",
+      "en": "on purpose",
+      "ko": "일부러, 고의로",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_049",
+      "en": "genuinely",
+      "ko": "진심으로",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_050",
+      "en": "on the way",
+      "ko": "가는 길에, 도중에",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_051",
+      "en": "It looks like",
+      "ko": "눈에 보이는 걸 근거로 추측",
+      "ref": {
+        "chapter": 4,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_052",
+      "en": "It seems like",
+      "ko": "눈에 보이는 것 + 상황 + 나의 느낌",
+      "ref": {
+        "chapter": 4,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_053",
+      "en": "It’s just that",
+      "ko": "이유나 변명을 말할 때",
+      "ref": {
+        "chapter": 4,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_054",
+      "en": "It’s not like",
+      "ko": "오해하지 마 / 그게 이유는 아니야",
+      "ref": {
+        "chapter": 4,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_055",
+      "en": "It says",
+      "ko": "무언가에 쓰여있는 걸 읽을 때",
+      "ref": {
+        "chapter": 4,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_056",
+      "en": "I’ve always wanted to",
+      "ko": "늘 원해왔다",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_057",
+      "en": "It’s been a while since",
+      "ko": "~한 지 오래되다",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_058",
+      "en": "bucket list",
+      "ko": "버킷리스트",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_059",
+      "en": "over",
+      "ko": "~하면서",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_060",
+      "en": "get (someone) (something)",
+      "ko": "(누구)에게 (무엇)을 가져다주다, 사주다",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_061",
+      "en": "let me",
+      "ko": "내가 할 게, 내가 하게 해줘",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_062",
+      "en": "unless",
+      "ko": "~하지 않으면, ~이 아닌 한",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_063",
+      "en": "leftovers",
+      "ko": "남은 음식",
+      "ref": {
+        "chapter": 4,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_064",
+      "en": "up to",
+      "ko": "뭐 하고 있어, 뭐 할 거야",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_065",
+      "en": "remember how",
+      "ko": "~했던 거 기억나?",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_066",
+      "en": "stay",
+      "ko": "머물다, 유지하다",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_067",
+      "en": "I feel like",
+      "ko": "그런 기분이다, 그런 것 같다",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_068",
+      "en": "run into",
+      "ko": "마주치다",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_069",
+      "en": "catch up",
+      "ko": "따라잡다",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_070",
+      "en": "Why don’t you",
+      "ko": "~하는 게 어때?",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_071",
+      "en": "around",
+      "ko": "대략",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_072",
+      "en": "at",
+      "ko": "구체적인 시간이나 장소",
+      "ref": {
+        "chapter": 5,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_073",
+      "en": "in",
+      "ko": "어떤 시간이나 기간, 장소 안에 포함",
+      "ref": {
+        "chapter": 5,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_074",
+      "en": "on",
+      "ko": "특정 요일이나 날짜 앞에",
+      "ref": {
+        "chapter": 5,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_075",
+      "en": "around",
+      "ko": "시간이나 시간의 양, 숫자 등 대략적으로 말할 때",
+      "ref": {
+        "chapter": 5,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_076",
+      "en": "for",
+      "ko": "뒤에 시간과 함께 쓰여 얼마동안 지속되는지를 표현",
+      "ref": {
+        "chapter": 5,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_077",
+      "en": "grab",
+      "ko": "잡다, 먹다, 사다",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_078",
+      "en": "free",
+      "ko": "가능하다, 시간이 되다",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_079",
+      "en": "work",
+      "ko": "되다, 가능하다",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_080",
+      "en": "What about",
+      "ko": "~는 어때?",
+      "ref": {
+        "chapter": 5,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_081",
+      "en": "get to",
+      "ko": "~에 가다, 도착하다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_082",
+      "en": "Can you tell me",
+      "ko": "알려줄래?",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_083",
+      "en": "take",
+      "ko": "타다, 이용하다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_084",
+      "en": "head",
+      "ko": "가다, 향하다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_085",
+      "en": "get off",
+      "ko": "내리다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_086",
+      "en": "once",
+      "ko": "~하자마자, ~하게 되면내리다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_087",
+      "en": "hang out",
+      "ko": "어울리다, 시간을 보내다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_088",
+      "en": "could",
+      "ko": "공손한 표현, can보다는 확신하지 않을 때,",
+      "ref": {
+        "chapter": 6,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_089",
+      "en": "would",
+      "ko": "will의 과거, 상상/가정/바람의 상황,",
+      "ref": {
+        "chapter": 6,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_090",
+      "en": "might be able to",
+      "ko": "가능할 수도 있다",
+      "ref": {
+        "chapter": 6,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_091",
+      "en": "might as well",
+      "ko": "이왕이면, 그냥 ~하는게 낫겠다",
+      "ref": {
+        "chapter": 6,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_092",
+      "en": "might want to",
+      "ko": "그러는 게 좋을 걸",
+      "ref": {
+        "chapter": 6,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_093",
+      "en": "get lost",
+      "ko": "길을 잃다, 헤매다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_094",
+      "en": "on foot",
+      "ko": "걸어서",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_095",
+      "en": "it says",
+      "ko": "~라고 쓰여 있다, ~라고 나와 있다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_096",
+      "en": "take",
+      "ko": "시간이 걸리다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_097",
+      "en": "Do you know",
+      "ko": "~아세요?, 알아?",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_098",
+      "en": "appreciate",
+      "ko": "감사하다",
+      "ref": {
+        "chapter": 6,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_099",
+      "en": "different from",
+      "ko": "~와 다르다",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_100",
+      "en": "spontaneously",
+      "ko": "즉흥적으로",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_101",
+      "en": "through",
+      "ko": "~을 통해서, 과정에",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_102",
+      "en": "break up",
+      "ko": "헤어지다",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_103",
+      "en": "personally",
+      "ko": "개인적으로",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_104",
+      "en": "I understand why",
+      "ko": "왜 ~인지 이해해",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_105",
+      "en": "I wonder",
+      "ko": "궁금하다",
+      "ref": {
+        "chapter": 7,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_106",
+      "en": "How come",
+      "ko": "왜, 어떻게",
+      "ref": {
+        "chapter": 7,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_107",
+      "en": "personal",
+      "ko": "개인적인, 사적인",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_108",
+      "en": "on top of that",
+      "ko": "게다가, 심지어",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_109",
+      "en": "get along",
+      "ko": "잘 지내다, 사이가 좋다",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_110",
+      "en": "set (someone) up",
+      "ko": "소개해 주다, 이어 주다",
+      "ref": {
+        "chapter": 7,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_111",
+      "en": "prioritize",
+      "ko": "우선순위를 두다",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_112",
+      "en": "find out",
+      "ko": "알아내다, 알게 되다",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_113",
+      "en": "I never thought",
+      "ko": "한 번도 생각 못해보다, 할 줄은 몰랐다",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_114",
+      "en": "constantly",
+      "ko": "끊임없이, 계속해서, 늘",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_115",
+      "en": "cut back on (cut down on)",
+      "ko": "줄이다",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_116",
+      "en": "stick to",
+      "ko": "~을 지키다, 계속하다",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_117",
+      "en": "make",
+      "ko": "그렇게 하게 만들다, 시키다",
+      "ref": {
+        "chapter": 8,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_118",
+      "en": "have",
+      "ko": "그렇게 하게 만들다, make보다 부드러운 느낌",
+      "ref": {
+        "chapter": 8,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_119",
+      "en": "let",
+      "ko": "상대방이 무언가를 하게 두거나, 허락함",
+      "ref": {
+        "chapter": 8,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_120",
+      "en": "help",
+      "ko": "상대방이 무언가를 하게 도와줌",
+      "ref": {
+        "chapter": 8,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_121",
+      "en": "down",
+      "ko": "우울한, 기운이 없는",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_122",
+      "en": "specific",
+      "ko": "구체적인, 특정한",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_123",
+      "en": "struggle",
+      "ko": "어려움을 겪다, 힘들어하다",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_124",
+      "en": "get through",
+      "ko": "극복하다, 버티다, 헤쳐 나가다",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_125",
+      "en": "in touch",
+      "ko": "연락하다, 연락하는 상태",
+      "ref": {
+        "chapter": 8,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_126",
+      "en": "go-to",
+      "ko": "늘 찾는, 믿고 찾는",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_127",
+      "en": "can tell",
+      "ko": "~인 게 보인다, ~인 걸 알겠다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_128",
+      "en": "as long as",
+      "ko": "~하기만 하면, ~하는 한",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_129",
+      "en": "turn out",
+      "ko": "~로 드러나다, 결과적으로 ~되다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_130",
+      "en": "(something) for (money)",
+      "ko": "얼마에 ~를 하다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_131",
+      "en": "remind me of",
+      "ko": "~이 생각난다, ~을 떠올리게 하다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_132",
+      "en": "crave",
+      "ko": "음식이 땡기다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_133",
+      "en": "that",
+      "ko": "어떤 대상을 더 자세히 설명하고 싶을 때, 어떤 사실이나 이유를 말할 때",
+      "ref": {
+        "chapter": 9,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_134",
+      "en": "who / when / where",
+      "ko": "어떤 대상을 더 자세히 설명하고 싶을 때",
+      "ref": {
+        "chapter": 9,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_135",
+      "en": "which",
+      "ko": "대개 말해도 그만, 안 해도 그만인 정보를 붙일 때",
+      "ref": {
+        "chapter": 9,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_136",
+      "en": "feel like",
+      "ko": "~하고 싶다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_137",
+      "en": "they have",
+      "ko": "~가 있다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_138",
+      "en": "handle",
+      "ko": "감당하다, 잘 처리하다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_139",
+      "en": "growing on me",
+      "ko": "점점 좋아지다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_140",
+      "en": "for now",
+      "ko": "일단 지금은",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_141",
+      "en": "than I thought",
+      "ko": "생각했던 것보다 더 ~하다",
+      "ref": {
+        "chapter": 9,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_142",
+      "en": "random",
+      "ko": "무작위의, 예상 못한, 뜬금없는",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_143",
+      "en": "the best (thing) I’ve ever",
+      "ko": "내가 지금까지 ~한 것 중 최고",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_144",
+      "en": "while",
+      "ko": "~동안에, ~하는 김에",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_145",
+      "en": "come across",
+      "ko": "우연히 발견하다, 우연히 마주치다",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_146",
+      "en": "end up",
+      "ko": "결국 ~하게 되다",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_147",
+      "en": "recommend",
+      "ko": "추천하다",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_148",
+      "en": "a / an",
+      "ko": "상대방이 모르거나, 처음 언급되거나, 특정하지 않은 어떤 하나를 가리킴",
+      "ref": {
+        "chapter": 10,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_149",
+      "en": "the",
+      "ko": "이미 앞서 언급했거나 혹은 너무 유명해서 말 안 해도 상대방이 알 수 있는 대상을 가리킴",
+      "ref": {
+        "chapter": 10,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_150",
+      "en": "been to",
+      "ko": "~에 가본 적 있다",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_151",
+      "en": "one day",
+      "ko": "언젠가",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_152",
+      "en": "get around",
+      "ko": "돌아다니다, 이동하다",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_153",
+      "en": "I heard",
+      "ko": "~라고 들었어",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_154",
+      "en": "looking forward",
+      "ko": "기대하다",
+      "ref": {
+        "chapter": 10,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_155",
+      "en": "give up on",
+      "ko": "~을 포기하다",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_156",
+      "en": "constantly",
+      "ko": "끊임없이, 계속해서",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_157",
+      "en": "it’s about",
+      "ko": "중요한 건 ~이다, ~에 관련된 것이다",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_158",
+      "en": "consistent",
+      "ko": "꾸준한, 일관된",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_159",
+      "en": "compared to",
+      "ko": "~와 비교해서",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_160",
+      "en": "could’ve",
+      "ko": "할 수도 있었는데 안 했어",
+      "ref": {
+        "chapter": 11,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_161",
+      "en": "should’ve",
+      "ko": "그랬어야 했는데 후회가 돼",
+      "ref": {
+        "chapter": 11,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_162",
+      "en": "would’ve",
+      "ko": "상황이 달랐다면 다르게 했었을 거야",
+      "ref": {
+        "chapter": 11,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_163",
+      "en": "end",
+      "ko": "끝나다, 끝내다",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_164",
+      "en": "somehow",
+      "ko": "어찌저찌, 이유는 모르겠지만, 왠지",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_165",
+      "en": "make it",
+      "ko": "해내다, ~에 도착하다",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_166",
+      "en": "challenging",
+      "ko": "힘든, 도전적인",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_167",
+      "en": "definitely",
+      "ko": "확실히, 정말로",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_168",
+      "en": "another",
+      "ko": "또 다른 하나",
+      "ref": {
+        "chapter": 11,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_169",
+      "en": "haven’t done it in (time)",
+      "ko": "~동안 ~를 하지 않았다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_170",
+      "en": "get to",
+      "ko": "~할 기회가 있다, 그럴 수 있게 되다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_171",
+      "en": "get emotional",
+      "ko": "감정이 북받치다, 울컥하다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_172",
+      "en": "such",
+      "ko": "정말, 너무",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_173",
+      "en": "for the first time in (time)",
+      "ko": "~만에 처음으로",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_174",
+      "en": "You never know",
+      "ko": "(앞일은) 모르는 거야",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_175",
+      "en": "grateful for",
+      "ko": "~에 감사하다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_176",
+      "en": "had + 과거분사",
+      "ko": "과거보다 더 전에 일어난 과거",
+      "ref": {
+        "chapter": 12,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_177",
+      "en": "I wish",
+      "ko": "바꿀 수 없는 현재 상황에 대한 아쉬움과 후회",
+      "ref": {
+        "chapter": 12,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_178",
+      "en": "I wish I had + 과거분사",
+      "ko": "이미 지나간 과거에 대한 아쉬움과 후회",
+      "ref": {
+        "chapter": 12,
+        "type": "GF"
+      }
+    },
+    {
+      "id": "expr_179",
+      "en": "have (article) idea",
+      "ko": "생각, 아이디어가 있다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_180",
+      "en": "sign up for",
+      "ko": "~에 등록하다, 신청하다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_181",
+      "en": "I see",
+      "ko": "알겠어, 이해했어, 그렇구나",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_182",
+      "en": "Do you have any",
+      "ko": "혹시 ~있어?",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_183",
+      "en": "I wish",
+      "ko": "~이면 좋을 텐데",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_184",
+      "en": "stick with",
+      "ko": "~을 계속하다, 그대로 하다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    },
+    {
+      "id": "expr_185",
+      "en": "give it (something)",
+      "ko": "시도하다, 한번 해보다",
+      "ref": {
+        "chapter": 12,
+        "type": "UE"
+      }
+    }
+  ]
+}

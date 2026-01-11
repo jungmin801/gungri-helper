@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "places": [
+    { "id": "place_001", "ko": "집", "en": "At home" },
+    { "id": "place_002", "ko": "회사 / 학교", "en": "At work / school" },
+    { "id": "place_003", "ko": "카페 / 식당", "en": "At a café / restaurant" },
+    { "id": "place_004", "ko": "길에서 / 이동 중", "en": "On the way" },
+    { "id": "place_005", "ko": "여행지", "en": "While traveling" },
+    { "id": "place_006", "ko": "온라인 / 메신저", "en": "Online" },
+    { "id": "place_007", "ko": "모임 / 행사", "en": "At a gathering" },
+    { "id": "place_008", "ko": "공공장소", "en": "In public" },
+    { "id": "place_009", "ko": "자연 / 야외", "en": "Outdoors" },
+    { "id": "place_010", "ko": "가게", "en": "At any store" }
+  ],
+  "partners": [
+    { "id": "partner_001", "ko": "친한 친구", "en": "Close friend" },
+    { "id": "partner_002", "ko": "형제 / 자매", "en": "Sibling" },
+    { "id": "partner_003", "ko": "부모님", "en": "Parents" },
+    { "id": "partner_004", "ko": "동료", "en": "Coworker" },
+    { "id": "partner_005", "ko": "상사 / 선생님", "en": "Boss / Teacher" },
+    { "id": "partner_006", "ko": "연인", "en": "Partner" },
+    { "id": "partner_007", "ko": "지인", "en": "Acquaintance" },
+    { "id": "partner_008", "ko": "처음 만난 사람", "en": "Stranger" },
+    { "id": "partner_009", "ko": "원어민 / 외국인", "en": "Native speaker / Foreigner" },
+    { "id": "partner_010", "ko": "여러 사람들", "en": "People / a group" }
+  ]
+}
