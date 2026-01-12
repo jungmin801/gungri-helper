@@ -41,3 +41,16 @@ export function pickRandomContext() {
 
   return { place, partner, expressions };
 }
+
+
+export function getPlaceById(id: string) {
+  return cached?.catalog.places.find((p) => String(p.id) === String(id)) ?? null;
+}
+
+export function getPartnerById(id: string) {
+  return cached?.catalog.partners.find((p) => String(p.id) === String(id)) ?? null;
+}
+
+export function getExpressionById(id: string) {
+  return cached?.expr.data.find((e) => String(e.id) === String(id)) ?? null;
+}

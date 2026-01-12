@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/list">전체보기</RouterLink>
+    <RouterLink to="/records/new">새글쓰기</RouterLink>
+    <RouterLink to="/records">전체보기</RouterLink>
   </nav>
   <main>
     <RouterView></RouterView>

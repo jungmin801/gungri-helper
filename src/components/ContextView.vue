@@ -11,7 +11,7 @@
     <p>표현{{ index + 1 }}</p>
     <p>{{ expr?.en }} ({{ expr?.ko }})</p>
   </div>
-  <button @click="$emit('refresh')">새로 뽑기</button>
+  <button v-if="!hideRefresh" @click="$emit('refresh')">새로 뽑기</button>
 </template>
 <script lang="ts">
 import type { Expression, Partner, Place } from '@/types';
@@ -35,6 +35,7 @@ export default {
       required: true,
       default: () => [],
     },
+    hideRefresh: { type: Boolean, default: false },
   },
   emits: ['refresh'],
 };

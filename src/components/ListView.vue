@@ -3,7 +3,7 @@
     <h2 class="mb-4 text-xl font-bold">저장된 궁리 목록</h2>
 
     <ul class="space-y-3">
-      <li v-for="e in entries" :key="e.id" class="rounded border p-3">
+      <li v-for="e in entries" :key="e.id" class="rounded border p-3" @click="goDetail(e.id)">
         <div class="text-sm opacity-70">
           {{ new Date(e.createdAt).toLocaleString() }}
           · place: {{ e.placeId }} · partner: {{ e.partnerId }} · expr: {{ e.exprId1 }},
@@ -90,6 +90,10 @@ export default {
       );
 
       this.io.observe(el);
+    },
+
+    goDetail(id: string) {
+      this.$router.push(`/records/${id}`);
     },
   },
 };

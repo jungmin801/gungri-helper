@@ -10,7 +10,13 @@
 <script lang="ts">
 import { gungri } from '@/db/gungriDb';
 import type { GungRiEntry } from '@/db/types';
-import { loadGungriData, pickRandomContext } from '@/service/randomContext';
+import {
+  getExpressionById,
+  getPartnerById,
+  getPlaceById,
+  loadGungriData,
+  pickRandomContext,
+} from '@/service/randomContext';
 import type { Expression, Partner, Place } from '@/types';
 import ContextView from './ContextView.vue';
 import EditorView from './EditorView.vue';
@@ -24,6 +30,18 @@ export default {
     ContextView,
     EditorView,
   },
+  props: {
+    id: {
+      type: String,
+      required: false,
+    },
+  },
+  computed: {
+    isEditMode(): boolean {
+      return !!this.id;
+    },
+  },
+
   data() {
     return {
       place: null as Place | null,
@@ -35,17 +53,28 @@ export default {
   },
   async mounted() {
     await loadGungriData();
-    const context = pickRandomContext();
 
-    if (context.place) {
-      this.place = context.place;
-    }
-    if (context.partner) {
-      this.partner = context.partner;
-    }
-    const ex = context.expressions;
-    if (ex && ex.length >= 2) {
-      this.expressions = [ex[0]!, ex[1]!] as Expression[];
+    if (!this.isEditMode) {
+      this.refreshContext();
+    } else {
+      try {
+        const entry = await gungri.entries.get(this.id as string);
+        if (!entry) {
+          this.place = null;
+          this.partner = null;
+          this.expressions = [];
+          return;
+        }
+        this.content = entry.content ?? '';
+        this.place = getPlaceById(entry.placeId);
+        this.partner = getPartnerById(entry.partnerId);
+        const e1 = getExpressionById(entry.exprId1);
+        const e2 = getExpressionById(entry.exprId2);
+        this.expressions = [e1, e2].filter(Boolean) as Expression[];
+      } catch (e) {
+        console.error(e);
+        alert('기록을 불러오는데 실패했어.');
+      }
     }
   },
   methods: {
@@ -61,7 +90,7 @@ export default {
       }
 
       const entry: GungRiEntry = {
-        id: makeId(),
+        id: this.isEditMode ? (this.id as string) : makeId(),
         content: trimmed,
         createdAt: Date.now(),
         placeId: this.place.id,
