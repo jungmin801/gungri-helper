@@ -1,11 +1,17 @@
 <template>
-  <ContextView
-    :place="place"
-    :partner="partner"
-    :expressions="expressions"
-    @refresh="refreshContext"
-  />
-  <EditorView @save="handleSave" v-model="content" :isSaving="isSaving" />
+  <div class="flex flex-col gap-8">
+    <div class="text-center">
+      <h1 class="mb-4 text-4xl font-bold md:text-3xl">궁리 도우미</h1>
+      <p>상황과 표현을 뽑아 바로 써보는 영어 아웃풋 연습 도우미</p>
+    </div>
+    <ContextBlock
+      :place="place"
+      :partner="partner"
+      :expressions="expressions"
+      @refresh="refreshContext"
+    />
+    <EditorBlock @save="handleSave" v-model="content" :isSaving="isSaving" />
+  </div>
 </template>
 <script lang="ts">
 import { gungri } from '@/db/gungriDb';
@@ -18,8 +24,10 @@ import {
   pickRandomContext,
 } from '@/service/randomContext';
 import type { Expression, Partner, Place } from '@/types';
-import ContextView from './ContextView.vue';
-import EditorView from './EditorView.vue';
+
+import { showToast } from '@/utils/toast';
+import ContextBlock from '../block/ContextBlock.vue';
+import EditorBlock from '../block/EditorBlock.vue';
 
 const makeId = () =>
   crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`;
@@ -27,8 +35,8 @@ const makeId = () =>
 export default {
   name: 'HomeView',
   components: {
-    ContextView,
-    EditorView,
+    ContextBlock,
+    EditorBlock,
   },
   props: {
     id: {
@@ -73,19 +81,34 @@ export default {
         this.expressions = [e1, e2].filter(Boolean) as Expression[];
       } catch (e) {
         console.error(e);
-        alert('기록을 불러오는데 실패했어.');
+        showToast('기록을 불러오는데 실패했습니다.', 'alert-error');
       }
     }
   },
   methods: {
+    isQuotaError(e: unknown) {
+      // DOMException / Error / 기타 객체 케이스를 최대한 넓게 커버
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const anyErr = e as any;
+      const name = anyErr?.name ?? '';
+      const message = String(anyErr?.message ?? '');
+
+      return (
+        name === 'QuotaExceededError' ||
+        name === 'NS_ERROR_DOM_QUOTA_REACHED' || // 일부 브라우저
+        message.toLowerCase().includes('quota') ||
+        message.toLowerCase().includes('storage') ||
+        message.toLowerCase().includes('exceeded')
+      );
+    },
     async handleSave() {
       if (!this.place?.id || !this.partner?.id || !this.expressions) {
-        alert('랜덤 데이터가 아직 준비되지 않았어.');
+        showToast('랜덤 데이터가 아직 준비되지 않았습니다.', 'alert-warning');
         return;
       }
       const trimmed = this.content.trim();
       if (!trimmed) {
-        alert('내용을 입력해줘!');
+        showToast('내용을 입력하세요.', 'alert-warning');
         return;
       }
 
@@ -102,11 +125,19 @@ export default {
       this.isSaving = true;
       try {
         await gungri.entries.put(entry);
-        alert('저장완료');
+        showToast('저장이 완료되었습니다.', 'alert-success');
         this.content = '';
       } catch (e) {
         console.error(e);
-        alert('저장실패');
+        if (this.isQuotaError(e)) {
+          showToast(
+            '저장공간이 부족해서 저장에 실패했어요.\n' +
+              '불필요한 기록을 삭제한 뒤 다시 시도해주세요.',
+            'alert-error',
+          );
+        } else {
+          showToast('저장에 실패했습니다. 잠시 후 다시 시도해주세요.', 'alert-error');
+        }
       } finally {
         this.isSaving = false;
       }

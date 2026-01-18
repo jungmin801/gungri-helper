@@ -1,12 +1,16 @@
-import DetailView from '@/components/DetailView.vue'
-import HomeView from '@/components/HomeView.vue'
-import ListView from '@/components/ListView.vue'
+
+import DetailView from '@/components/deatils/DetailView.vue'
+import HelpView from '@/components/help/HelpView.vue'
+import ListView from '@/components/list/ListView.vue'
+import HomeView from '@/components/practice/HomeView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [{
-    path:'/records/new',
+  routes: [
+   { path: '/', redirect: '/practice' },  
+  {
+    path:'/practice',
     name: 'new',
     component: HomeView
   },
@@ -26,7 +30,11 @@ const router = createRouter({
     name: 'edit',
     component: HomeView,
     props:true,
-
+  },
+  {
+    path: '/help',
+    name: 'help',
+    component: HelpView,
   }],
 })
 

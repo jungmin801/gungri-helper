@@ -1,22 +1,29 @@
 <template>
   <div class="p-4">
-    <h2 class="mb-4 text-xl font-bold">저장된 궁리 목록</h2>
-
-    <ul class="space-y-3">
-      <li v-for="e in entries" :key="e.id" class="rounded border p-3" @click="goDetail(e.id)">
-        <div class="text-sm opacity-70">
+    <h1 class="md:text-3x mb-4 text-3xl font-bold">저장 목록</h1>
+    <ul class="space-y-4">
+      <li
+        v-for="e in entries"
+        :key="e.id"
+        class="cursor-pointer rounded-lg border bg-white p-6 shadow-md"
+        @click="goDetail(e.id)"
+      >
+        <p class="text-xs text-gray-400">
           {{ new Date(e.createdAt).toLocaleString() }}
-          · place: {{ e.placeId }} · partner: {{ e.partnerId }} · expr: {{ e.exprId1 }},
-          {{ e.exprId2 }}
+        </p>
+        <div class="whitespace-pre-wrap py-4">{{ e.content }}</div>
+        <div class="space-x-2">
+          <span class="badge badge-ghost">{{ getExpressionById(e.exprId1)?.en || '-' }}</span>
+          <span class="badge badge-ghost">{{ getExpressionById(e.exprId2)?.en || '-' }}</span>
+          <span class="badge badge-ghost">📍 {{ getPlaceById(e.placeId)?.ko || '-' }}</span>
+          <span class="badge badge-ghost">👤 {{ getPartnerById(e.partnerId)?.ko || '-' }}</span>
         </div>
-        <div class="mt-2 whitespace-pre-wrap">{{ e.content }}</div>
       </li>
     </ul>
 
     <div v-if="isLoading" class="py-4 text-center opacity-70">불러오는 중...</div>
-    <div v-else-if="!hasMore && entries.length > 0" class="py-4 text-center opacity-70">끝!</div>
     <div v-else-if="entries.length === 0 && !isLoading" class="py-8 text-center opacity-70">
-      아직 저장된 항목이 없어.
+      저장된 항목이 없습니다.
     </div>
 
     <!-- 무한스크롤 트리거 -->
@@ -27,6 +34,7 @@
 <script lang="ts">
 import type { GungRiEntry } from '@/db/types';
 import { fetchEntriesPage, type EntryCursor } from '@/service/fetchEntriesPage';
+import { getPartnerById, getPlaceById, getExpressionById } from '@/service/randomContext';
 
 const PAGE_SIZE = 20;
 
@@ -94,6 +102,15 @@ export default {
 
     goDetail(id: string) {
       this.$router.push(`/records/${id}`);
+    },
+    getPartnerById(id: string) {
+      return getPartnerById(id);
+    },
+    getPlaceById(id: string) {
+      return getPlaceById(id);
+    },
+    getExpressionById(id: string) {
+      return getExpressionById(id);
     },
   },
 };

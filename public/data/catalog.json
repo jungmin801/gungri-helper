@@ -15,13 +15,13 @@
   "partners": [
     { "id": "partner_001", "ko": "친한 친구", "en": "Close friend" },
     { "id": "partner_002", "ko": "형제 / 자매", "en": "Sibling" },
-    { "id": "partner_003", "ko": "부모님", "en": "Parents" },
+    { "id": "partner_003", "ko": "부모님 / 자녀", "en": "Parents / Children" },
     { "id": "partner_004", "ko": "동료", "en": "Coworker" },
-    { "id": "partner_005", "ko": "상사 / 선생님", "en": "Boss / Teacher" },
+    { "id": "partner_005", "ko": "상사", "en": "Boss" },
     { "id": "partner_006", "ko": "연인", "en": "Partner" },
     { "id": "partner_007", "ko": "지인", "en": "Acquaintance" },
     { "id": "partner_008", "ko": "처음 만난 사람", "en": "Stranger" },
     { "id": "partner_009", "ko": "원어민 / 외국인", "en": "Native speaker / Foreigner" },
-    { "id": "partner_010", "ko": "여러 사람들", "en": "People / a group" }
+    { "id": "partner_010", "ko": "선생님", "en": "Teacher" }
   ]
 }
