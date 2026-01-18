@@ -1,16 +1,20 @@
 {
   "version": 1,
   "places": [
-    { "id": "place_001", "ko": "집", "en": "At home" },
-    { "id": "place_002", "ko": "회사 / 학교", "en": "At work / school" },
-    { "id": "place_003", "ko": "카페 / 식당", "en": "At a café / restaurant" },
-    { "id": "place_004", "ko": "길에서 / 이동 중", "en": "On the way" },
-    { "id": "place_005", "ko": "여행지", "en": "While traveling" },
-    { "id": "place_006", "ko": "온라인 / 메신저", "en": "Online" },
-    { "id": "place_007", "ko": "모임 / 행사", "en": "At a gathering" },
-    { "id": "place_008", "ko": "공공장소", "en": "In public" },
-    { "id": "place_009", "ko": "자연 / 야외", "en": "Outdoors" },
-    { "id": "place_010", "ko": "가게", "en": "At any store" }
+  { "id": "place_001", "ko": "집", "en": "At home" },
+  { "id": "place_002", "ko": "회사 / 학교", "en": "At work / school" },
+  { "id": "place_003", "ko": "카페", "en": "At a café" },
+  { "id": "place_004", "ko": "식당", "en": "At a restaurant" },
+  { "id": "place_005", "ko": "도보로 이동 중", "en": "While walking" },
+  { "id": "place_006", "ko": "대중교통에서", "en": "On public transportation" },
+  { "id": "place_007", "ko": "여행 중", "en": "While traveling" },
+  { "id": "place_008", "ko": "온라인 / 메신저", "en": "Online" },
+  { "id": "place_009", "ko": "쇼핑 중에", "en": "While shopping" },
+  { "id": "place_010", "ko": "편의점에서", "en": "At a convenience store" },
+  { "id": "place_011", "ko": "마트에서", "en": "At a supermarket" },
+  { "id": "place_012", "ko": "모임 / 행사", "en": "At a gathering" },
+  { "id": "place_013", "ko": "야외 / 자연", "en": "Outdoors" },
+  { "id": "place_014", "ko": "공공장소에서", "en": "In public" }
   ],
   "partners": [
     { "id": "partner_001", "ko": "친한 친구", "en": "Close friend" },
@@ -22,6 +26,8 @@
     { "id": "partner_007", "ko": "지인", "en": "Acquaintance" },
     { "id": "partner_008", "ko": "처음 만난 사람", "en": "Stranger" },
     { "id": "partner_009", "ko": "원어민 / 외국인", "en": "Native speaker / Foreigner" },
-    { "id": "partner_010", "ko": "선생님", "en": "Teacher" }
+    { "id": "partner_010", "ko": "선생님", "en": "Teacher" },
+    { "id": "partner_010", "ko": "점원 / 직원", "en": "Store clerk / staff" }
   ]
 }
+
